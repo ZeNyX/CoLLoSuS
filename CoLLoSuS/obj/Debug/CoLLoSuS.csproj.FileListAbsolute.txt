@@ -2,8 +2,9 @@ D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\bin\Debug\CoLLoSuS.exe.config
 D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\bin\Debug\CoLLoSuS.exe
 D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\bin\Debug\CoLLoSuS.pdb
 D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\obj\Debug\CoLLoSuS.csprojResolveAssemblyReference.cache
-D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\obj\Debug\CoLLoSuS.Form1.resources
 D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\obj\Debug\CoLLoSuS.Properties.Resources.resources
 D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\obj\Debug\CoLLoSuS.csproj.GenerateResource.Cache
 D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\obj\Debug\CoLLoSuS.exe
 D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\obj\Debug\CoLLoSuS.pdb
+D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\obj\Debug\CoLLoSuS.LoginForm.resources
+D:\Team_VORTEX\CoLLoSuS\CoLLoSuS\CoLLoSuS\obj\Debug\CoLLoSuS.Main.resources

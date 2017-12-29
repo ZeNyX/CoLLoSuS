@@ -1,6 +1,6 @@
 ﻿namespace CoLLoSuS
 {
-    partial class Form1
+    partial class LoginForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.WLCME_label = new System.Windows.Forms.Label();
             this.SK_label = new System.Windows.Forms.Label();
-            this.LogIn_form = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,14 +74,6 @@
             this.SK_label.Text = "Please enter your serial key";
             this.SK_label.Click += new System.EventHandler(this.label1_Click);
             // 
-            // LogIn_form
-            // 
-            this.LogIn_form.Location = new System.Drawing.Point(35, 216);
-            this.LogIn_form.Name = "LogIn_form";
-            this.LogIn_form.Size = new System.Drawing.Size(274, 20);
-            this.LogIn_form.TabIndex = 5;
-            this.LogIn_form.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(192, 242);
@@ -90,6 +82,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "LogIn";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // notifyIcon
             // 
@@ -99,20 +92,27 @@
             this.notifyIcon.Visible = true;
             this.notifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
             // 
-            // Form1
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(42, 216);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(267, 20);
+            this.textBox1.TabIndex = 7;
+            // 
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.ClientSize = new System.Drawing.Size(364, 463);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.LogIn_form);
             this.Controls.Add(this.SK_label);
             this.Controls.Add(this.WLCME_label);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "LoginForm";
             this.Text = "CoLLoSuS";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -125,9 +125,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label WLCME_label;
         private System.Windows.Forms.Label SK_label;
-        private System.Windows.Forms.TextBox LogIn_form;
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.NotifyIcon notifyIcon;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
