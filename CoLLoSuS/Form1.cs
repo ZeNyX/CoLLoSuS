@@ -58,6 +58,7 @@ namespace CoLLoSuS
                 ss.Show();
             } else
             {
+                textBox1.Clear();
                 MessageBox.Show("Пожалуйста, введите правильный ключ доступа!");
             }
         }
